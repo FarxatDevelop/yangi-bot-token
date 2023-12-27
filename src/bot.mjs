@@ -6,16 +6,8 @@ const bot = new TeleBot("6834289066:AAE7ZeN2eoe9dDqIsTCsjo7Kaq788U5zUVc");
 
 bot.on("text", (msg) => {
   let id = msg.from.id;
-  let username = msg.from.username;
-  let first_name = msg.from.first_name;
-  let text = msg.text;
-  bot.sendMessage(
-    id,
-    `👤Name: ${first_name}
-  🆔ID: ${id}
-  ❗️User name: @${username}
-  💬Message: ${text}`
-  );
+  
+  bot.sendMessage(id,"asslamu aleykum");
 });
 
 export default bot;
