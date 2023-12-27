@@ -1,5 +1,5 @@
 import TeleBot from "telebot";
-const bot = new TeleBot("6867518017:AAEGbXXHUplboKrVxgmVjzbhjmDx0T9ACCU");
+const bot = new TeleBot("6834289066:AAE7ZeN2eoe9dDqIsTCsjo7Kaq788U5zUVc");
 // const bot = new TeleBot(process.env.TELEGRAM_BOT_TOKEN);
 
 // bot.on("text", msg => msg.reply.text(msg.text))
